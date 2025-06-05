@@ -157,7 +157,7 @@ function App() {
           onToggleExpand={handleToggleExpand}
         />
       </main>
-      <footer class="bg-white text-gray-400 text-sm text-center py-4">
+      <footer class="bg-gray-100 text-gray-400 text-sm text-center py-4">
         <p>
           &copy; 2025
           <a
