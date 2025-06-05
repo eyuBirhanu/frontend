@@ -44,7 +44,7 @@ const TaskItem = ({ task, onToggleComplete, onDelete, onToggleExpand }) => {
         </div>
         <button
           onClick={() => onDelete(task.id)}
-          className="text-gray-400 hover:text-red-500 transition-colors duration-300 flex-shrink-0" // `flex-shrink-0` ensures the button doesn't get squished
+          className="text-gray-400 hover:text-red-500 transition-colors duration-300 flex-shrink-0"
         >
           <FontAwesomeIcon icon={faTrash} />
         </button>
